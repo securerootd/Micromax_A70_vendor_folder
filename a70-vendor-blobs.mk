@@ -145,4 +145,12 @@ vendor/micromax/a70/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
 vendor/micromax/a70/proprietary/lib/liboncrpc.so:/system/lib/liboncrpc.so \
 vendor/micromax/a70/proprietary/lib/libpdapi.so:/system/lib/libpdapi.so \
 vendor/micromax/a70/proprietary/lib/libpdsm_atl.so:/system/lib/libpdsm_atl.so \
-vendor/micromax/a70/proprietary/lib/libuim.so:/system/lib/libuim.so
+vendor/micromax/a70/proprietary/lib/libuim.so:/system/lib/libuim.so \
+
+#Camera
+vendor/micromax/a70/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
+vendor/micromax/a70/proprietary/lib/libcameraserver.so:/system/lib/libcameraserver.so \
+vendor/micromax/a70/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
+
+
+
