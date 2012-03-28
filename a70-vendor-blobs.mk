@@ -45,9 +45,7 @@ vendor/micromax/a70/proprietary/bin/mm-adec-omxaac-test:/system/bin/mm-adec-omxa
 vendor/micromax/a70/proprietary/bin/mm-adec-omxadpcm-test:/system/bin/mm-adec-omxadpcm-test \
 vendor/micromax/a70/proprietary/bin/mm-adec-omxamr-test:/system/bin/mm-adec-omxamr-test \
 vendor/micromax/a70/proprietary/bin/mm-adec-omxamrwb-test:/system/bin/mm-adec-omxamrwb-test \
-vendor/micromax/a70/proprietary/bin/mm-adec-omxevrc-test:/system/bin/mm-adec-omxevrc-test \
 vendor/micromax/a70/proprietary/bin/mm-adec-omxmp3-test:/system/bin/mm-adec-omxmp3-test \
-vendor/micromax/a70/proprietary/bin/mm-adec-omxQcelp13-test:/system/bin/mm-adec-omxQcelp13-test \
 vendor/micromax/a70/proprietary/bin/mm-adec-omxwma-test:/system/bin/mm-adec-omxwma-test \
 vendor/micromax/a70/proprietary/bin/mm-aenc-omxaac-test:/system/bin/mm-aenc-omxaac-test \
 vendor/micromax/a70/proprietary/bin/mm-aenc-omxamr-test:/system/bin/mm-aenc-omxamr-test \
@@ -56,16 +54,11 @@ vendor/micromax/a70/proprietary/bin/mm-aenc-omxqcelp13-test:/system/bin/mm-aenc-
 vendor/micromax/a70/proprietary/bin/mm-audio-alsa-test:/system/bin/mm-audio-alsa-test \
 vendor/micromax/a70/proprietary/bin/mm-audio-ctrl-test:/system/bin/mm-audio-ctrl-test \
 vendor/micromax/a70/proprietary/bin/mm-audio-native-test:/system/bin/mm-audio-native-test \
-vendor/micromax/a70/proprietary/bin/mm-audio-voem_if-test:/system/bin/mm-audio-voem_if-test \
 vendor/micromax/a70/proprietary/bin/mm-jpeg-dec-test:/system/bin/mm-jpeg-dec-test \
 vendor/micromax/a70/proprietary/bin/mm-jpeg-enc-test:/system/bin/mm-jpeg-enc-test \
-vendor/micromax/a70/proprietary/bin/mm-omx-devmgr:/system/bin/mm-omx-devmgr \
 vendor/micromax/a70/proprietary/bin/mm-qcamera-test:/system/bin/mm-qcamera-test \
 vendor/micromax/a70/proprietary/bin/mm-qcamera-testsuite-client:/system/bin/mm-qcamera-testsuite-client \
-vendor/micromax/a70/proprietary/bin/mm-vdec-omx-test:/system/bin/mm-vdec-omx-test \
-vendor/micromax/a70/proprietary/bin/mm-venc-omx-test720p:/system/bin/mm-venc-omx-test720p \
-vendor/micromax/a70/proprietary/bin/mm-video-driver-test:/system/bin/mm-video-driver-test \
-vendor/micromax/a70/proprietary/bin/mm-video-encdrv-test:/system/bin/mm-video-encdrv-test
+vendor/micromax/a70/proprietary/bin/mm-vdec-omx-test:/system/bin/mm-vdec-omx-test
 
 # egl
 PRODUCT_COPY_FILES += \
@@ -73,7 +66,7 @@ vendor/micromax/a70/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libE
 vendor/micromax/a70/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
 vendor/micromax/a70/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
 vendor/micromax/a70/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-vendor/micromax/a70/proprietary/lib/egl/libgsl.so:/system/lib/libgsl.so
+vendor/micromax/a70/proprietary/lib/libgsl.so:/system/lib/libgsl.so
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -145,12 +138,12 @@ vendor/micromax/a70/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
 vendor/micromax/a70/proprietary/lib/liboncrpc.so:/system/lib/liboncrpc.so \
 vendor/micromax/a70/proprietary/lib/libpdapi.so:/system/lib/libpdapi.so \
 vendor/micromax/a70/proprietary/lib/libpdsm_atl.so:/system/lib/libpdsm_atl.so \
-vendor/micromax/a70/proprietary/lib/libuim.so:/system/lib/libuim.so \
+vendor/micromax/a70/proprietary/lib/libuim.so:/system/lib/libuim.so
 
-#Camera
+# Camera
+PRODUCT_COPY_FILES += \
 vendor/micromax/a70/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
-vendor/micromax/a70/proprietary/lib/libcameraserver.so:/system/lib/libcameraserver.so \
-vendor/micromax/a70/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so 
-
+vendor/micromax/a70/proprietary/lib/libcameraservice.so:/system/lib/libcameraservice.so \
+vendor/micromax/a70/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so
 
 
